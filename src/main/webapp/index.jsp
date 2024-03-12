@@ -14,6 +14,11 @@ int b=20;
 out.print("sum is :"+(a+b));
 
 %>
+<form action="tags.jsp">
+<input type="text" name="username" />
+<input type="submit" value="submit"/>
 
+</form>
+<a href="tags.jsp">JSP Tags</a>
 </body>
 </html>
